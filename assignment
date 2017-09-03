@@ -1,0 +1,14 @@
+var num = 1;          
+function showGlobal() {
+  alert(num);         
+}
+showGlobal();         
+function showLocal(){
+  var num = 2;         
+  alert(num);
+}
+showLocal();           
+function showArgument(num) {
+    alert(num);       
+}
+showArgument(3);      
